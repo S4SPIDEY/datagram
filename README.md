@@ -13,3 +13,9 @@ read -p "Enter your API key: " API_KEY && wget -q https://github.com/Datagram-Gr
 curl -O https://raw.githubusercontent.com/S4SPIDEY/datagram/refs/heads/main/datagram.sh && chmod +x datagram.sh && ./datagram.sh
 
 ```
+
+# for update run below then above one
+```
+rm -rf ~/.datagram/ai-router/.db
+
+```
